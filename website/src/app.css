@@ -1,0 +1,35 @@
+.page{
+  display:flex;
+  flex-direction:column;
+}
+/* HEADER */
+.header_container{
+  height:10vh;
+  display:flex;
+  flex-direction:row;
+}
+.title{
+  color:orange;
+  font-size: x-large;
+  
+}
+.logo img{
+  width:85%;
+}
+
+/* HERO */
+.hero_container{
+  height:80vh;
+}
+
+/* FOOTER */
+.footer_container{
+  height:10vh;
+  background-color:orange;
+  display:flex;
+  justify-content:center;
+}
+.footer_text{
+  color:white;
+  
+}

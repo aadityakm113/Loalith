@@ -1,35 +1,140 @@
-.page{
-  display:flex;
-  flex-direction:column;
+.page {
+  display: flex;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+  /* height:100vh; */
 }
+
 /* HEADER */
-.header_container{
-  height:10vh;
-  display:flex;
-  flex-direction:row;
+.header_container {
+  /* height: 10vh; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5%;
+  background-color: #FFFFFF;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 }
-.title{
-  color:orange;
-  font-size: x-large;
-  
+
+.title {
+  color: #333333;
+  font-size: 1.5rem;
+  margin: 0;
 }
-.logo img{
-  width:85%;
+
+.logo img {
+  max-height: 100%;
 }
 
 /* HERO */
-.hero_container{
-  height:80vh;
+.hero_container {
+  /* height: 110vh; */
+  background-color: #D7E5F0;
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-/* FOOTER */
-.footer_container{
-  height:10vh;
-  background-color:orange;
-  display:flex;
-  justify-content:center;
+.hero_container h1 {
+  color: #333333;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
 }
-.footer_text{
-  color:white;
-  
+
+.hero_container p {
+  color: #666666;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.services {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-around;
+  margin-top: 20px;
+  /* max-height:50%; */
+}
+
+.service_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.service_img {
+  width: 100%;
+  max-width: 200px;
+  border-radius: 5px;
+}
+
+.recruitment_img{
+  height:60%;
+  width:60%;
+  border-radius: 5px;
+}
+
+.text {
+  color: #666666;
+  font-size: 0.9rem;
+  text-align: center;
+}
+/* Add CSS for the login section */
+.login {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.login h3 {
+  color: #333333;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.login form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login label {
+  color: #666666;
+  font-size: 1rem;
+}
+
+.login input[type="text"],
+.login input[type="password"] {
+  width: 20%;
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.login input[type="button"] {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.login input[type="button"]:hover {
+  background-color: #0056b3;
+}
+
+
+/* FOOTER */
+.footer_container {
+  /* height: 10vh; */
+  background-color: #333333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer_text {
+  color: #FFFFFF;
+  font-size: 0.8rem;
 }
